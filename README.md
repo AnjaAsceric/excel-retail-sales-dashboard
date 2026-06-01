@@ -19,12 +19,21 @@ Retail sales analysis using Excel pivot tables, VLOOKUP, and dashboard visualiza
 **Add Revenue column:**  
 - Formula used: `=Quantity * Sales`  
 - Screenshot:  
-![Revenue Column](screenshots/revenue_column.png)
+![Revenue Column](screenshots/Revenue_Column.png)
 
 ## Step 3 – Lookup / Merge Data
-- Used VLOOKUP/XLOOKUP to bring Product information (Category, Supplier) into main sales table  
+- Used XLOOKUP to bring
+
+- ## Step 3 – Lookup / Merge Data
+
+- Used XLOOKUP to enrich the Returns dataset with information from the Orders table (Revenue and Profit)
+- Matched records using Order ID as the unique identifier.
+- This allowed return records to be analyzed alongside revenue and product information.
+
+The merged data was later used to analyze the financial impact of product returns and identify categories associated with the highest return values.
+
 - Screenshot:  
-![VLOOKUP Example](screenshots/vlookup_example.png)
+![VLOOKUP Example](screenshots/xlookup.png)
 
 ## Step 4 – Pivot Tables
 **Pivot Table 1:** Revenue by Region  
