@@ -34,41 +34,44 @@ Screenshot:
 
 ## Step 4 – Pivot Tables
 
-### Pivot Table 1: Revenue and Profit by Region
+### Pivot Table 1: Discounted vs. Non-Discounted Orders
+
+* Rows: Returned (Yes/No)
+* Columns: Discounted (Yes/No)
+* Values: Count of Orders
+* Purpose: Compare return volumes between discounted and non-discounted orders.
+
+### Pivot Table 2: Revenue, Profit, and Order Volume by Region
 
 * Rows: Region
 * Values:
 
   * Sum of Revenue
   * Sum of Profit
-* Purpose: Compare regional sales performance and profitability.
+  * Count of Orders
+* Purpose: Evaluate regional sales performance and profitability.
 
-### Pivot Table 2: Return Analysis by Region
+
+### Pivot Table 3: Return Rate by Region
 
 * Rows: Region
 * Columns: Returned (Yes/No)
 * Values: Count of Orders
-* Purpose: Compare return activity across regions.
-
-### Pivot Table 3: Return Rate by Region
-
-* Calculated return ratio using:
+* Calculated return rate using:
 
 `Return Rate = Returned Orders / Total Orders × 100`
 
-* Purpose: Compare return rates rather than absolute return counts.
+* Purpose: Compare return activity across regions while accounting for differences in sales volume.
 
 Key Findings:
 
 * West recorded the highest return rate (15.06%)
 * East, Central, and South showed similar return rates between approximately 4% and 5%
-* The West region may require further investigation to identify factors contributing to higher return activity
+* West generated the highest revenue and profit but also experienced substantially higher return activity
 
 Screenshot:
 
 ![Return Rate Analysis](screenshots/Pivot_Tables.png)
-
----
 
 
 ## Step 5 – Key Insights
