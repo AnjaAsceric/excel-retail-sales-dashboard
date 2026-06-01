@@ -34,15 +34,55 @@ Screenshot:
 
 ## Step 4 – Pivot Tables
 
+### Pivot Table 1: Revenue and Profit by Region
 
-## Step 5 – Dashboard Creation
-- Created a new sheet called **Dashboard**  
-- Added charts: bar chart for region, column/pie chart for category, line chart for monthly trend  
-- Added slicers for Region and Category to make it interactive  
-- Screenshot:  
-![Dashboard Screenshot](screenshots/dashboard.png)
+* Rows: Region
+* Values:
 
-## Step 6 – Key Insights
-- West region generated the highest revenue  
-- Electronics category contributed most to sales  
-- Sales peak in November–December, suggesting seasonal demand
+  * Sum of Revenue
+  * Sum of Profit
+* Purpose: Compare regional sales performance and profitability.
+
+### Pivot Table 2: Monthly Revenue Trend
+
+* Rows: Order Date (grouped by Month)
+* Values: Sum of Revenue
+* Purpose: Identify seasonal sales patterns and peak sales periods.
+
+
+### Pivot Table 3: Return Analysis by Region
+
+* Rows: Region
+* Columns: Returned (Yes/No)
+* Values: Count of Orders
+* Purpose: Compare return activity across regions.
+
+### Pivot Table 4: Return Rate by Region
+
+* Calculated return ratio using:
+
+`Return Rate = Returned Orders / Total Orders × 100`
+
+* Purpose: Compare return rates rather than absolute return counts.
+
+Key Findings:
+
+* West recorded the highest return rate (15.06%)
+* East, Central, and South showed similar return rates between approximately 4% and 5%
+* The West region may require further investigation to identify factors contributing to higher return activity
+
+Screenshot:
+
+![Return Rate Analysis](screenshots/Pivot_Tables.png)
+
+---
+
+
+## Step 5 – Key Insights
+
+* West generated the highest revenue among all regions
+* West also recorded the highest profit
+* Revenue demonstrated seasonal variation throughout the year
+* The West region exhibited a return rate of 15.06%, substantially higher than all other regions
+* High sales volume alone does not fully explain return activity, suggesting additional operational or customer-related factors may influence returns
+
