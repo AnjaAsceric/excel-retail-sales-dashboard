@@ -22,37 +22,18 @@ Retail sales analysis using Excel pivot tables, VLOOKUP, and dashboard visualiza
 ![Revenue Column](screenshots/Revenue_Column.png)
 
 ## Step 3 – Lookup / Merge Data
-- Used XLOOKUP to bring
 
-- ## Step 3 – Lookup / Merge Data
+- Used XLOOKUP to merge return status information from the Returns table into the main Orders dataset
+- Matched records using Order ID as the unique identifier
+- Created a new **Returned** column indicating whether each order had been returned
+- This enriched dataset enabled analysis of return patterns and their impact on revenue and profit
 
-- Used XLOOKUP to enrich the Returns dataset with information from the Orders table (Revenue and Profit)
-- Matched records using Order ID as the unique identifier.
-- This allowed return records to be analyzed alongside revenue and product information.
+Screenshot:
 
-The merged data was later used to analyze the financial impact of product returns and identify categories associated with the highest return values.
-
-- Screenshot:  
-![VLOOKUP Example](screenshots/xlookup.png)
+![XLOOKUP Example](screenshots/xlookup.png)
 
 ## Step 4 – Pivot Tables
-**Pivot Table 1:** Revenue by Region  
-- Rows: Region  
-- Values: Sum of Revenue  
-- Screenshot:  
-![Pivot Table by Region](screenshots/pivot_table_region.png)
 
-**Pivot Table 2:** Revenue by Category  
-- Rows: Category  
-- Values: Sum of Revenue  
-- Screenshot:  
-![Pivot Table by Category](screenshots/pivot_table_category.png)
-
-**Pivot Table 3:** Monthly Sales Trend  
-- Rows: Month (from Order Date)  
-- Values: Sum of Revenue  
-- Screenshot:  
-![Pivot Table by Month](screenshots/pivot_table_month.png)
 
 ## Step 5 – Dashboard Creation
 - Created a new sheet called **Dashboard**  
