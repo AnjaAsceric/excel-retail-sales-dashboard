@@ -43,21 +43,14 @@ Screenshot:
   * Sum of Profit
 * Purpose: Compare regional sales performance and profitability.
 
-### Pivot Table 2: Monthly Revenue Trend
-
-* Rows: Order Date (grouped by Month)
-* Values: Sum of Revenue
-* Purpose: Identify seasonal sales patterns and peak sales periods.
-
-
-### Pivot Table 3: Return Analysis by Region
+### Pivot Table 2: Return Analysis by Region
 
 * Rows: Region
 * Columns: Returned (Yes/No)
 * Values: Count of Orders
 * Purpose: Compare return activity across regions.
 
-### Pivot Table 4: Return Rate by Region
+### Pivot Table 3: Return Rate by Region
 
 * Calculated return ratio using:
 
